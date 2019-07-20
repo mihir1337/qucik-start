@@ -1,0 +1,108 @@
+/*------------------------------------------------------------------
+
+    Theme Name: Demo
+    Author: Sabber Hossain
+    Author Url: https://themeforest.net/user/thememi
+    Support: mihir.mahamud@gmail.com
+    Description: Creative HTML5 template.
+    Version: 1.0
+
+-------------------------------------------------------------------*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - preloader  */
+
+
+/*______________________ Global stlye ___________________*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #686876;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #171721;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="url"], select, textarea {
+    border: 1px solid #CACACA;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+a, button, input[type="submit"]  {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
